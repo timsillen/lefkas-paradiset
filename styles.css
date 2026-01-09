@@ -137,4 +137,33 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem;
+}/* Styling för den fördjupade informationen */
+.detailed-info {
+    margin-top: 4rem;
+    text-align: left; /* Gör texten lättare att läsa */
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beach-detail {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.5); /* Svag bakgrund för att separera texterna */
+    border-radius: 10px;
+}
+
+.beach-detail h3 {
+    color: #005f8d;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-left: 4px solid #ffcc33; /* En liten gul linje som accent */
+    padding-left: 15px;
+}
+
+.beach-detail p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
 }
