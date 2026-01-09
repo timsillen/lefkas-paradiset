@@ -166,4 +166,52 @@ footer {
     font-size: 1.1rem;
     color: #444;
     line-height: 1.8;
+}/* Nyhetsbrev Section */
+.newsletter-section {
+    background-color: #0077be; /* Samma blå som logotypen */
+    color: white;
+    padding: 4rem 10%;
+    text-align: center;
+}
+
+.newsletter-container h2 {
+    color: white; /* Överskrid standard h2-färg */
+    margin-bottom: 1rem;
+}
+
+.newsletter-container p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+#newsletterForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#emailInput {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#subscribeBtn {
+    background-color: #ffcc33; /* Solgul */
+    color: #333;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#subscribeBtn:hover {
+    transform: scale(1.05);
+    background-color: #ffdb70;
 }
